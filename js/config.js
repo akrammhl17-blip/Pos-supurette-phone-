@@ -5,6 +5,6 @@ window.POS_CONFIG = {
   clockTolerance: 5 * 60 * 1000,    // سماحية فرق الساعة: 5 دقائق
   // المفتاح العام للتحقق من أكواد الترخيص (ينتج عن: node tools/license-tool.mjs keygen)
   // يبقى null حتى تضع مفتاحك العام. المفتاح الخاص لا يوضع هنا أبدًا.
-  publicKey: null,
+  publicKey: {"kty":"EC","crv":"P-256","x":"L_3d0iuvOfAdut7lSgGOYEhUQZEmAcm9UocRoatBbv4","y":"c51r2i03pWMKErUdoQiczzRdHPjkHRc4fsrR-vJKsfk","ext":true,"key_ops":["verify"]},
   contact: 'للحصول على ترخيص تواصل مع البائع وأرسل له «معرّف التثبيت» الظاهر في الإعدادات.'
 };
